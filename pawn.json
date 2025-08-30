@@ -1,0 +1,67 @@
+{
+	"user": "SAMP-CASSIC",
+	"repo": "SAMP-CASSIC",
+	"tag": "0.0.1",
+	"entry": "gamemodes\\cassic.pwn",
+	"output": "gamemodes\\cassic.amx",
+	"dependencies": [
+		"samp-incognito/samp-streamer-plugin",
+		"Zeex/samp-plugin-crashdetect",
+		"pawn-lang/YSI-Includes:5.05.0301",
+		"Y-Less/sscanf:v2.11.4",
+		"pBlueG/SA-MP-MySQL:R41-4",
+		"katursis/Pawn.RakNet",
+		"oscar-broman/strlib",
+		"sampctl/samp-stdlib",
+		"Sreyas-Sreelal/samp-bcrypt"
+	],
+	"local": true,
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"echo": "-",
+		"rcon_password": "cassic",
+		"port": 7777,
+		"hostname": "-",
+		"maxplayers": 100,
+		"language": "TH",
+		"mapname": "San Andreas",
+		"weburl": "-",
+		"gamemodetext": "Unknown",
+		"announce": true,
+		"lanmode": false,
+		"query": true,
+		"rcon": false,
+		"logqueries": false,
+		"sleep": 5,
+		"maxnpc": 500,
+		"stream_rate": 1000,
+		"stream_distance": 400,
+		"onfoot_rate": 30,
+		"incar_rate": 30,
+		"weapon_rate": 30,
+		"chatlogging": true,
+		"timestamp": true,
+		"messageholelimit": 5000,
+		"messageslimit": 500,
+		"ackslimit": 5000,
+		"playertimeout": 10000,
+		"minconnectiontime": 0,
+		"lagcompmode": 1,
+		"connseedtime": 300000,
+		"db_logging": false,
+		"db_log_queries": false,
+		"conncookies": true,
+		"cookielogging": false,
+		"output": true
+	},
+	"builds": [
+		{
+			"name": "main",
+			"includes": [
+				"includes"
+			],
+			"compiler": {}
+		}
+	]
+}
